@@ -1,3 +1,83 @@
 .h-400{
     height: 400px;
 }
+
+fieldset{
+    background-color: rgb(169, 205, 207);
+    border-radius: 15px;
+    border: solid 1px #000000;
+    padding: 10px 15px;
+    margin: 0% 30%;
+    margin-bottom: 15px;
+}
+
+legend{
+    background-color: aliceblue;
+    border-radius: 15px;
+    padding: 10px 15px 10px 15px;
+    border: solid 1px #000000;
+}
+
+input{
+    margin-bottom: 15px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#divFirstName input{
+    display:block;
+    margin-top: 5px;
+}
+
+#divLastName input{
+    display:block;
+    margin-top: 5px;
+}
+
+#divEmail input{
+    display:block;
+    margin-top: 5px;
+}
+
+#divPhone input{
+    display:block;
+    margin-top: 5px;
+}
+
+#divDepartment select{
+    display:block;
+    margin-top: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#divMessage textarea{
+    display: block;
+    margin-top: 5px;
+}
+
+select{
+    margin-bottom: 15px;
+}
+
+textarea{
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#divButtons button{
+    padding: 25px 50px;
+    border-radius: 15px;
+}
+
+#divButtons{
+    margin: 0% 30%;
+}
+
+#button1{
+    background-color: greenyellow;
+}
+
+#button2{
+    background-color: red;
+}

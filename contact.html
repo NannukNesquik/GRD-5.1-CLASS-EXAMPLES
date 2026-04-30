@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="assets/style/styleindex.css">
+</head>
+
+<body>
+    <form action="mailto:amybugeja357@gmail.com" method="post" enctype="text/plain">
+        <fieldset>
+            <legend>Personal Details</legend>
+            <div id="divFirstName">
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" name="name" placeholder="Joe" required>
+            </div>
+            <div id="divLastName">
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" name="surname" placeholder="Borg" required>
+            </div>
+            <div id="divAgeGroup">
+                <p>Age Group</p>
+                <input type="radio" id="age1" name="age" value="1">
+                <label for="age1">15 - 18</label>
+
+                <br>
+
+                <input type="radio" id="age2" name="age" value="2">
+                <label for="age2">19 - 25</label>
+
+                <br>
+
+                <input type="radio" id="age3" name="age" value="3">
+                <label for="age3">26 - 35</label>
+
+                <br>
+
+                <input type="radio" id="age4" name="age" value="4">
+                <label for="age4">36+</label>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Contact Information</legend>
+            <div id="divEmail">
+                <label for="email">E-mail</label>
+                <input type="text" id="email" name="emailAddress" placeholder="joeborg@gmail.com" required>
+            </div>
+            <div id="divPhone">
+                <label for="phone">Phone Number</label>
+                <input type="text" id="phone" name="phoneNumber" placeholder="99224466" required pattern="[0-9]{8}">
+            </div>
+            <div id="checkbox">
+                <input type="checkbox" name="offerscheckbox" id="offers">
+                <label for="offers">Contact me about new offers</label>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Message Details</legend>
+            <div id="divDepartment">
+                <label for="department">Department:</label>
+                <select name="departmentChosen" id="department" required>
+                    <option value="" disabled selected>Select department</option>
+                    <option value="1">Customer Support</option>
+                    <option value="2">Technical Support</option>
+
+                </select>
+            </div>
+            <div id="divMessage">
+                <label for="message">Message:</label>
+                <textarea name="fullMessage" id="message" 
+                placeholder="I have a problem with my account..."
+                cols="30" rows="10" required></textarea>
+            </div>
+        </fieldset>
+
+        <div id="divButtons">
+            <button type="submit" id="button1">
+                Send
+            </button>
+            <button type="reset" id="button2">
+                Cancel
+            </button>
+        </div>
+    </form>
+
+</body>
+
+</html>
